@@ -22,3 +22,10 @@
   * distance_graph(G, C0, C1,category_dict)
   * distance_graph2(G, C0, C1,category_dict) (the same as before but with a different length for C1 (type list))
   * steps(G,category_dict)
+
+### Our output source
+#### Type : csv
+
+- ranking_table.csv : it keeps saved the rank distance between our input category 'Indian_films' with the others.
+- dfgscore_sort_with_names.csv : it keeps the scores computed for each node in the subgraph created.
+- top_5_score_with_names.csv : it takes from the last csv just the first 5 most scored nodes per each category.
